@@ -1,0 +1,162 @@
+CD to .. 
+/home/mattox/repos/cs225/fa16-exam4-grading/submissions/xwang104
+###############################
+##                           ##
+##     Grading question      ##
+##                           ##
+###############################
+Grader dir is /home/mattox/repos/cs225/fa16-exam4-grading/code-grading/scripts
+qid is second-01
+variant is
+test_dir is /home/mattox/repos/cs225/fa16-exam4-grading/code-grading/scripts/tests/second-01/
+fullTmpDir = /home/mattox/repos/cs225/fa16-exam4-grading/submissions/xwang104/grade-.oay
+:: Compiling...
+g++ -std=c++0x -c -g -O0 -Wall -Wextra -Wno-unused-function solution_second.cpp
+solution_second.cpp: In member function ‘void Quadtree::prunish(int, double)’:
+solution_second.cpp:35:28: warning: unused parameter ‘tolerance’ [-Wunused-parameter]
+ void Quadtree::prunish(int tolerance, double percent) {
+                            ^~~~~~~~~
+solution_second.cpp:35:46: warning: unused parameter ‘percent’ [-Wunused-parameter]
+ void Quadtree::prunish(int tolerance, double percent) {
+                                              ^~~~~~~
+solution_second.cpp: In member function ‘void Quadtree::prunish(Quadtree::QuadtreeNode*, int, int, double)’:
+solution_second.cpp:40:39: warning: unused parameter ‘curNode’ [-Wunused-parameter]
+ void Quadtree::prunish(QuadtreeNode * curNode, int tolerance, int res, double percent) {
+                                       ^~~~~~~
+solution_second.cpp:40:52: warning: unused parameter ‘tolerance’ [-Wunused-parameter]
+ void Quadtree::prunish(QuadtreeNode * curNode, int tolerance, int res, double percent) {
+                                                    ^~~~~~~~~
+solution_second.cpp:40:67: warning: unused parameter ‘res’ [-Wunused-parameter]
+ void Quadtree::prunish(QuadtreeNode * curNode, int tolerance, int res, double percent) {
+                                                                   ^~~
+solution_second.cpp:40:79: warning: unused parameter ‘percent’ [-Wunused-parameter]
+ void Quadtree::prunish(QuadtreeNode * curNode, int tolerance, int res, double percent) {
+                                                                               ^~~~~~~
+:: Compiled successfully!
+:: Compiling provided code...
+
+:: Compiling test_tally_1.
+make -s second EXTRA_OBJS=test_tally_1.o
+g++ solution_second.o solution_first.o common.o quadtree.o rgbapixel.o png.o quadtree_given.o test_tally_1.o -std=c++0x -lpng -o second
+:: Running test_tally_1.
+Status is 'PASSED'
+:: Passed test_tally_1.
+
+:: Compiling test_prunish_1.
+make -s second EXTRA_OBJS=test_prunish_1.o
+g++ solution_second.o solution_first.o common.o quadtree.o rgbapixel.o png.o quadtree_given.o test_prunish_1.o -std=c++0x -lpng -o second
+:: Running test_prunish_1.
+Status is 'PASSED'
+:: Passed test_prunish_1.
+
+:: Compiling test_tally_2.
+make -s second EXTRA_OBJS=test_tally_2.o
+g++ solution_second.o solution_first.o common.o quadtree.o rgbapixel.o png.o quadtree_given.o test_tally_2.o -std=c++0x -lpng -o second
+:: Running test_tally_2.
+Status is 'PASSED'
+:: Passed test_tally_2.
+
+:: Compiling test_prunish_2.
+make -s second EXTRA_OBJS=test_prunish_2.o
+g++ solution_second.o solution_first.o common.o quadtree.o rgbapixel.o png.o quadtree_given.o test_prunish_2.o -std=c++0x -lpng -o second
+:: Running test_prunish_2.
+Status is 'PASSED'
+:: Passed test_prunish_2.
+
+:: Compiling test_tally_3.
+make -s second EXTRA_OBJS=test_tally_3.o
+g++ solution_second.o solution_first.o common.o quadtree.o rgbapixel.o png.o quadtree_given.o test_tally_3.o -std=c++0x -lpng -o second
+:: Running test_tally_3.
+Status is 'PASSED'
+:: Passed test_tally_3.
+
+:: Compiling test_prunish_3.
+make -s second EXTRA_OBJS=test_prunish_3.o
+g++ solution_second.o solution_first.o common.o quadtree.o rgbapixel.o png.o quadtree_given.o test_prunish_3.o -std=c++0x -lpng -o second
+:: Running test_prunish_3.
+Status is 'PASSED'
+:: Passed test_prunish_3.
+
+:: Compiling test_tally_4.
+make -s second EXTRA_OBJS=test_tally_4.o
+g++ solution_second.o solution_first.o common.o quadtree.o rgbapixel.o png.o quadtree_given.o test_tally_4.o -std=c++0x -lpng -o second
+:: Running test_tally_4.
+Status is 'PASSED'
+:: Passed test_tally_4.
+
+:: Compiling test_prunish_4.
+make -s second EXTRA_OBJS=test_prunish_4.o
+g++ solution_second.o solution_first.o common.o quadtree.o rgbapixel.o png.o quadtree_given.o test_prunish_4.o -std=c++0x -lpng -o second
+:: Running test_prunish_4.
+Status is 'PASSED'
+:: Passed test_prunish_4.
+
+:: Compiling test_tally_5.
+make -s second EXTRA_OBJS=test_tally_5.o
+g++ solution_second.o solution_first.o common.o quadtree.o rgbapixel.o png.o quadtree_given.o test_tally_5.o -std=c++0x -lpng -o second
+:: Running test_tally_5.
+Status is 'PASSED'
+:: Passed test_tally_5.
+
+:: Compiling test_prunish_5.
+make -s second EXTRA_OBJS=test_prunish_5.o
+g++ solution_second.o solution_first.o common.o quadtree.o rgbapixel.o png.o quadtree_given.o test_prunish_5.o -std=c++0x -lpng -o second
+:: Running test_prunish_5.
+Status is 'PASSED'
+:: Passed test_prunish_5.
+
+:: Compiling test_tally_6.
+make -s second EXTRA_OBJS=test_tally_6.o
+g++ solution_second.o solution_first.o common.o quadtree.o rgbapixel.o png.o quadtree_given.o test_tally_6.o -std=c++0x -lpng -o second
+:: Running test_tally_6.
+Status is 'FAILED'
+:: Failed test_tally_6.
+
+:: Compiling test_prunish_6.
+make -s second EXTRA_OBJS=test_prunish_6.o
+g++ solution_second.o solution_first.o common.o quadtree.o rgbapixel.o png.o quadtree_given.o test_prunish_6.o -std=c++0x -lpng -o second
+:: Running test_prunish_6.
+Status is 'PASSED'
+:: Passed test_prunish_6.
+
+:: Compiling test_tally_7.
+make -s second EXTRA_OBJS=test_tally_7.o
+g++ solution_second.o solution_first.o common.o quadtree.o rgbapixel.o png.o quadtree_given.o test_tally_7.o -std=c++0x -lpng -o second
+:: Running test_tally_7.
+Status is 'PASSED'
+:: Passed test_tally_7.
+
+:: Compiling test_prunish_7.
+make -s second EXTRA_OBJS=test_prunish_7.o
+g++ solution_second.o solution_first.o common.o quadtree.o rgbapixel.o png.o quadtree_given.o test_prunish_7.o -std=c++0x -lpng -o second
+:: Running test_prunish_7.
+Status is 'PASSED'
+:: Passed test_prunish_7.
+
+Failed tests:
+- test_tally_6
+
+Grade for question : 93.33/100
+
+
+~ ~ ~
+
+Grade: 93.33
+
+Details:
+test,grade
+_compiled,1
+_test_tally_1,1
+_test_prunish_1,1
+_test_tally_2,1
+_test_prunish_2,1
+_test_tally_3,1
+_test_prunish_3,1
+_test_tally_4,1
+_test_prunish_4,1
+_test_tally_5,1
+_test_prunish_5,1
+_test_tally_6,0
+_test_prunish_6,1
+_test_tally_7,1
+_test_prunish_7,1

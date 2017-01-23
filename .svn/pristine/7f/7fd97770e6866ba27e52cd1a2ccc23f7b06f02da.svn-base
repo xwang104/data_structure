@@ -1,0 +1,79 @@
+CD to .. 
+/home/mattox/repos/cs225/fa16-exam5-grading/submissions/xwang104
+###############################
+##                           ##
+##     Grading question      ##
+##                           ##
+###############################
+Grader dir is /home/mattox/repos/cs225/fa16-exam5-grading/code-grading/scripts
+qid is first-03
+variant is
+test_dir is /home/mattox/repos/cs225/fa16-exam5-grading/code-grading/scripts/tests/first-03/
+fullTmpDir = /home/mattox/repos/cs225/fa16-exam5-grading/submissions/xwang104/grade-.RmM
+:: Compiling...
+g++ -std=c++0x -c -g -O0 -Wall -Wextra -Wno-unused-function solution_first.cpp
+:: Compiled successfully!
+:: Compiling provided code...
+
+:: Compiling test_one.
+make -s first EXTRA_OBJS=test_one.o
+solution_second.cpp: In function ‘int componentsUpTree(std::vector<int>)’:
+solution_second.cpp:17:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; i < uptree.size(); i++) {
+                     ~~^~~~~~~~~~~~~~~
+:: Running test_one.
+You got 1
+Status is 'PASSED'
+:: Passed test_one.
+
+:: Compiling test_two.
+make -s first EXTRA_OBJS=test_two.o
+:: Running test_two.
+You got 2
+Status is 'PASSED'
+:: Passed test_two.
+
+:: Compiling test_three.
+make -s first EXTRA_OBJS=test_three.o
+:: Running test_three.
+You got 3
+Status is 'PASSED'
+:: Passed test_three.
+
+:: Compiling test_four.
+make -s first EXTRA_OBJS=test_four.o
+:: Running test_four.
+You got 4
+Status is 'PASSED'
+:: Passed test_four.
+
+:: Compiling test_five.
+make -s first EXTRA_OBJS=test_five.o
+:: Running test_five.
+You got 5
+Status is 'PASSED'
+:: Passed test_five.
+
+:: Compiling test_off_by_one.
+make -s first EXTRA_OBJS=test_off_by_one.o
+:: Running test_off_by_one.
+You got 5
+Status is 'PASSED'
+:: Passed test_off_by_one.
+
+Grade for question : 100/100
+
+
+~ ~ ~
+
+Grade: 100
+
+Details:
+test,grade
+_compiled,1
+_test_one,1
+_test_two,1
+_test_three,1
+_test_four,1
+_test_five,1
+_test_off_by_one,1

@@ -1,0 +1,19 @@
+Exam 5 report for Xiaoxiao Wang
+
+
+                         Problem | Score
+       --------------------------+------
+                    mc-cpp5-001d |   4
+                    mc-cpp5-002f |   4
+                    mc-cpp5-003d |   4
+                    mc-cpp5-005f |   4
+                    mc-cpp5-006b |   4
+                    mc-cpp5-007s |   4
+                    mc-cpp5-008a |   4
+                    mc-cpp5-009e |   4
+       --------------------------+------
+                        first-03 | 9.00 /   9
+                       second-02 | 9.00 /   9
+       --------------------------+------
+                          Total: | 50.00 (=100.00%) 
+

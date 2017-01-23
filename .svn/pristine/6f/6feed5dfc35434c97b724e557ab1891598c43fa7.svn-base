@@ -1,0 +1,81 @@
+CD to .. 
+/home/mattox/repos/cs225/fa16-exam5-grading/submissions/xwang104
+###############################
+##                           ##
+##     Grading question      ##
+##                           ##
+###############################
+Grader dir is /home/mattox/repos/cs225/fa16-exam5-grading/code-grading/scripts
+qid is second-02
+variant is
+test_dir is /home/mattox/repos/cs225/fa16-exam5-grading/code-grading/scripts/tests/second-02/
+fullTmpDir = /home/mattox/repos/cs225/fa16-exam5-grading/submissions/xwang104/grade-.BI7
+:: Compiling...
+g++ -std=c++0x -c -g -O0 -Wall -Wextra -Wno-unused-function solution_second.cpp
+solution_second.cpp: In function ‘int componentsUpTree(std::vector<int>)’:
+solution_second.cpp:17:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; i < uptree.size(); i++) {
+                     ~~^~~~~~~~~~~~~~~
+:: Compiled successfully!
+:: Compiling provided code...
+
+:: Compiling test_one.
+make -s second EXTRA_OBJS=test_one.o
+g++ solution_second.o solution_first.o common.o quadtree.o rgbapixel.o png.o quadtree_given.o test_one.o -std=c++0x -lpng -o second
+:: Running test_one.
+[ 1, 7, 1, 2, 2, 6, 7, -9, 6, ]
+componentsUpTree returned 1
+Status is 'PASSED'
+:: Passed test_one.
+
+:: Compiling test_two.
+make -s second EXTRA_OBJS=test_two.o
+g++ solution_second.o solution_first.o common.o quadtree.o rgbapixel.o png.o quadtree_given.o test_two.o -std=c++0x -lpng -o second
+:: Running test_two.
+[ 1, -5, 1, 2, 2, 6, 7, -4, 6, ]
+componentsUpTree returned 2
+Status is 'PASSED'
+:: Passed test_two.
+
+:: Compiling test_three.
+make -s second EXTRA_OBJS=test_three.o
+g++ solution_second.o solution_first.o common.o quadtree.o rgbapixel.o png.o quadtree_given.o test_three.o -std=c++0x -lpng -o second
+:: Running test_three.
+[ 1, -2, -3, 2, 2, 6, 7, -4, 6, ]
+componentsUpTree returned 3
+Status is 'PASSED'
+:: Passed test_three.
+
+:: Compiling test_four.
+make -s second EXTRA_OBJS=test_four.o
+g++ solution_second.o solution_first.o common.o quadtree.o rgbapixel.o png.o quadtree_given.o test_four.o -std=c++0x -lpng -o second
+:: Running test_four.
+[ 1, -2, -3, 2, 2, 6, 7, -3, -1, ]
+componentsUpTree returned 4
+Status is 'PASSED'
+:: Passed test_four.
+
+:: Compiling test_five.
+make -s second EXTRA_OBJS=test_five.o
+g++ solution_second.o solution_first.o common.o quadtree.o rgbapixel.o png.o quadtree_given.o test_five.o -std=c++0x -lpng -o second
+:: Running test_five.
+[ 1, -2, -2, 2, -1, 6, 7, -3, -1, ]
+componentsUpTree returned 5
+Status is 'PASSED'
+:: Passed test_five.
+
+Grade for question : 100/100
+
+
+~ ~ ~
+
+Grade: 100
+
+Details:
+test,grade
+_compiled,1
+_test_one,1
+_test_two,1
+_test_three,1
+_test_four,1
+_test_five,1

@@ -1,0 +1,112 @@
+CD to .. 
+/home/mattox/repos/cs225/fa16-exam4-grading/submissions/xwang104
+###############################
+##                           ##
+##     Grading question      ##
+##                           ##
+###############################
+Grader dir is /home/mattox/repos/cs225/fa16-exam4-grading/code-grading/scripts
+qid is first-04
+variant is
+test_dir is /home/mattox/repos/cs225/fa16-exam4-grading/code-grading/scripts/tests/first-04/
+fullTmpDir = /home/mattox/repos/cs225/fa16-exam4-grading/submissions/xwang104/grade-.dAE
+:: Compiling...
+g++ -std=c++0x -c -g -O0 -Wall -Wextra -Wno-unused-function solution_first.cpp
+:: Compiled successfully!
+:: Compiling provided code...
+
+:: Compiling test_one.
+make -s first EXTRA_OBJS=test_one.o
+:: Running test_one.
+111
+1
+Status is 'FAILED'
+:: Failed test_one.
+
+:: Compiling test_a_1_nh.
+make -s first EXTRA_OBJS=test_a_1_nh.o
+:: Running test_a_1_nh.
+333
+3
+Status is 'PASSED'
+:: Passed test_a_1_nh.
+
+:: Compiling test_a_2_nh.
+make -s first EXTRA_OBJS=test_a_2_nh.o
+:: Running test_a_2_nh.
+232
+2
+Status is 'FAILED'
+:: Failed test_a_2_nh.
+
+:: Compiling test_a_3_nh.
+make -s first EXTRA_OBJS=test_a_3_nh.o
+:: Running test_a_3_nh.
+33not2
+2
+Status is 'PASSED'
+:: Passed test_a_3_nh.
+
+:: Compiling test_b_1.
+make -s first EXTRA_OBJS=test_b_1.o
+:: Running test_b_1.
+555
+5
+Status is 'PASSED'
+:: Passed test_b_1.
+
+:: Compiling test_b_2.
+make -s first EXTRA_OBJS=test_b_2.o
+:: Running test_b_2.
+333
+3
+Status is 'PASSED'
+:: Passed test_b_2.
+
+:: Compiling test_b_3.
+make -s first EXTRA_OBJS=test_b_3.o
+:: Running test_b_3.
+343
+3
+Status is 'PASSED'
+:: Passed test_b_3.
+
+:: Compiling test_b_4.
+make -s first EXTRA_OBJS=test_b_4.o
+:: Running test_b_4.
+35not2
+2
+Status is 'PASSED'
+:: Passed test_b_4.
+
+:: Compiling test_b_5.
+make -s first EXTRA_OBJS=test_b_5.o
+:: Running test_b_5.
+33not2
+2
+Status is 'PASSED'
+:: Passed test_b_5.
+
+Failed tests:
+- test_one
+- test_a_2_nh
+
+Grade for question : 80/100
+
+
+~ ~ ~
+
+Grade: 80
+
+Details:
+test,grade
+_compiled,1
+_test_one,0
+_test_a_1_nh,1
+_test_a_2_nh,0
+_test_a_3_nh,1
+_test_b_1,1
+_test_b_2,1
+_test_b_3,1
+_test_b_4,1
+_test_b_5,1
