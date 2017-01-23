@@ -1,0 +1,23 @@
+Grading r28638 by xwang104 committed on Fri Oct  7 20:25:55 CDT 2016
+Monad Autograder
+Testing lab_trees at 2016-10-10 00:24:09
+
+"A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools." ~ Douglas Adams
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+test_isOrdered  . [33 pts] - passed
+test_mirror . . . [33 pts] - passed
+test_printPaths . [34 pts] - passed
+test_sumDistances [25 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 125
+

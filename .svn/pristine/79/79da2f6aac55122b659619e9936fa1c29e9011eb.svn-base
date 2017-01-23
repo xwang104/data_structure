@@ -1,0 +1,30 @@
+Exam 2 report for Xiaoxiao Wang
+===============================
+
+Scores
+------
+
+  Problem                           Points
+  ------------------------------- --------
+  mc-constructors-fa16-7e                4
+  mc-destructors-fa16-04d                4
+  mc-inheritance-fa16-1a                 4
+  mc-linked-lists-tc-fa16-011d           4
+  mc-operator-overload-fa16-04d          4
+  mc-ref-params-fa16-02b                 4
+  mc-templates-fa16-06c                  4
+  easy-03                                0
+  hard-02                                0
+
+"Easy" code is out of 14 points. "Hard" code is out of 8 points.
+
+Total score: 28/50 (56%)
+
+Code Problem Test Output
+------------------------
+
+See `test-easy-*.txt` and `test-hard-*.txt` for autograder test outputs.
+
+Questions / problems of a specific nature, please email mattox.
+Questions / problems that look like they would have affected a lot of
+people, please post on Piazza.

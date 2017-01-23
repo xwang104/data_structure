@@ -1,0 +1,35 @@
+CD to .. 
+/home/mattox/repos/cs225/fa16-exam2-grading/submissions/xwang104
+###############################
+##                           ##
+##     Grading question      ##
+##                           ##
+###############################
+Grader dir is /home/mattox/repos/cs225/fa16-exam2-grading/code-grading/scripts
+qid is easy-03
+variant is
+test_dir is /home/mattox/repos/cs225/fa16-exam2-grading/code-grading/scripts/tests/easy-03/
+fullTmpDir = /home/mattox/repos/cs225/fa16-exam2-grading/submissions/xwang104/grade-.d8K
+:: Compiling...
+g++ -std=c++0x -c -g -O0 -Wall -Wextra -Wno-unused-function   -c -o easy.o easy.cpp
+easy.cpp: In function ‘bool removeAt(LinkedList&, int)’:
+easy.cpp:32:1: error: expected ‘}’ at end of input
+ }
+ ^
+easy.cpp:32:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+<builtin>: recipe for target 'easy.o' failed
+make: *** [easy.o] Error 1
+Could not compile easy.o.
+
+Grade for question : 0/100
+
+
+~ ~ ~
+
+Grade: 0
+
+Details:
+test,grade
+_compiled,0

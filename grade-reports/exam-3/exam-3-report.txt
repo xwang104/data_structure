@@ -1,0 +1,31 @@
+Exam 3 report for Xiaoxiao Wang
+===============================
+
+Scores
+------
+
+  Problem          Points
+  -------------- --------
+  mc-cpp3-001a          4
+  mc-cpp3-002a          4
+  mc-cpp3-003g          4
+  mc-cpp3-004e          4
+  mc-cpp3-005f          4
+  mc-cpp3-006d          4
+  mc-cpp3-007b          4
+  mc-cpp3-008b          4
+  queue-03              9
+  tree-03               9
+
+Each coding question was worth 9 points.
+
+Total score: 50/50 (100%)
+
+Code Problem Test Output
+------------------------
+
+See `test-queue.txt` and `test-tree.txt` for autograder test outputs.
+
+Questions / problems of a specific nature, please email mattox.
+Questions / problems that look like they would have affected a lot of
+people, please post on Piazza.

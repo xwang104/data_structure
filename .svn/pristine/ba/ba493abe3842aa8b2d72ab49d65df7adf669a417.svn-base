@@ -1,0 +1,29 @@
+Grading r46051 by xwang104 committed on Sat Nov  5 20:57:47 CDT 2016
+Monad Autograder
+Testing lab_btree at 2016-11-07 01:10:25
+
+"Let me tell you the secret that has led me to my goal. My strength lies solely in my tenacity." ~ Louis Pasteur
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+test_insertion_idx_emp  . . . [10 pts] - passed
+test_insertion_idx_small  . . [10 pts] - passed
+test_insertion_idx_logn . . . [10 pts] - passed
+test_btree3_small (asan)  . . [10 pts] - passed
+test_btree3_large_seq . . . . [10 pts] - passed
+test_btree3_large_rand  . . . [10 pts] - passed
+test_btree64_large_seq  . . . [10 pts] - passed
+test_btree64_large_rand . . . [10 pts] - passed
+test_btree128_med_rand (asan) [10 pts] - passed
+test_btree5_strings . . . . . [10 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 100
+

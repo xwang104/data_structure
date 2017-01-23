@@ -1,0 +1,24 @@
+Grading r56111 by enx-cs225autograder committed on Wed Nov 30 00:46:55 CST 2016
+Monad Autograder
+Testing mp7.1 at 2016-12-01 00:42:04
+
+"I hope this code makes sense when I wake up." ~ Jason Cho
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+addElements1 . . . . [20 pts] - passed
+addElements2 . . . . [20 pts] - passed
+testFindAndSetUnion1 [20 pts] - passed
+testFindAndSetUnion2 [20 pts] - passed
+testFindAndSetUnion3 [20 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 100
+

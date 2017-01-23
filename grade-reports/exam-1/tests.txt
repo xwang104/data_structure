@@ -1,0 +1,99 @@
+CD to .. 
+/home/mattox/repos/fa16-exam1-grading/submissions/xwang104
+#################################################
+##                                             ##
+##     Grading question exam-1-code-vector     ##
+##                                             ##
+#################################################
+Grader dir is /home/mattox/repos/fa16-exam1-grading/code-grading/scripts
+qid is exam-1-code-vector
+shape is vector
+test_dir is /home/mattox/repos/fa16-exam1-grading/code-grading/scripts/tests/vector
+fullTmpDir = /home/mattox/repos/fa16-exam1-grading/submissions/xwang104/grade-vector.NJf
+:: Compiling...
+g++ -std=c++0x -c -g -O0 -Wall -Wextra -Wno-unused-function   -c -o vector.o vector.cpp
+:: Compiled successfully!
+:: Compiling provided code...
+
+:: Compiling test_constructor_x.
+:: Running test_constructor_x.
+Constructing Vector with x=10 and y=20
+Expected: Vector(x=10, y=?)
+Got:      Vector(x=10, y=20)
+:: Passed test_constructor_x.
+
+:: Compiling test_constructor_y.
+:: Running test_constructor_y.
+Constructing Vector with x=10 and y=20
+Expected: Vector(x=?, y=20)
+Got:      Vector(x=10, y=20)
+:: Passed test_constructor_y.
+
+:: Compiling test_default_constructor_x.
+:: Running test_default_constructor_x.
+Constructing default Vector
+Expected: Vector(x=1, y=?)
+Got:      Vector(x=1, y=0)
+:: Passed test_default_constructor_x.
+
+:: Compiling test_default_constructor_y.
+:: Running test_default_constructor_y.
+Constructing default Vector
+Expected: Vector(x=?, y=0)
+Got:      Vector(x=1, y=0)
+:: Passed test_default_constructor_y.
+
+:: Compiling test_default_calculateLength.
+:: Running test_default_calculateLength.
+Constructing default Vector
+Expected: calculateLength() = 1
+Got:      calculateLength() = 1
+:: Passed test_default_calculateLength.
+
+:: Compiling test_focus_calculateLength_1.
+:: Running test_focus_calculateLength_1.
+Constructing Vector with x=1 and y=2
+Expected: calculateLength() = 2.23607
+Got:      calculateLength() = 2.23607
+:: Passed test_focus_calculateLength_1.
+
+:: Compiling test_focus_calculateLength_2.
+:: Running test_focus_calculateLength_2.
+Constructing Vector with x=1 and y=10
+Expected: calculateLength() = 10.0499
+Got:      calculateLength() = 10.0499
+:: Passed test_focus_calculateLength_2.
+
+:: Compiling test_focus_calculateLength_3.
+:: Running test_focus_calculateLength_3.
+Constructing Vector with x=5 and y=4
+Expected: calculateLength() = 6.40312
+Got:      calculateLength() = 6.40312
+:: Passed test_focus_calculateLength_3.
+
+:: Compiling test_focus_calculateLength_4.
+:: Running test_focus_calculateLength_4.
+Constructing Vector with x=3 and y=2
+Expected: calculateLength() = 3.60555
+Got:      calculateLength() = 3.60555
+:: Passed test_focus_calculateLength_4.
+
+Grade for question exam-1-code-vector: 100/100
+
+
+~ ~ ~
+
+Grade: 100
+
+Details:
+test,grade
+vector_compiled,1
+vector_test_constructor_x,1
+vector_test_constructor_y,1
+vector_test_default_constructor_x,1
+vector_test_default_constructor_y,1
+vector_test_default_calculateLength,1
+vector_test_focus_calculateLength_1,1
+vector_test_focus_calculateLength_2,1
+vector_test_focus_calculateLength_3,1
+vector_test_focus_calculateLength_4,1

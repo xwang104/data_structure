@@ -1,0 +1,55 @@
+CD to .. 
+/home/mattox/repos/cs225/fa16-exam3-grading/submissions/xwang104
+###############################
+##                           ##
+##     Grading question      ##
+##                           ##
+###############################
+Grader dir is /home/mattox/repos/cs225/fa16-exam3-grading/code-grading/scripts
+qid is tree-03
+variant is
+test_dir is /home/mattox/repos/cs225/fa16-exam3-grading/code-grading/scripts/tests/tree-03/
+fullTmpDir = /home/mattox/repos/cs225/fa16-exam3-grading/submissions/xwang104/grade-.9Rr
+:: Compiling...
+g++ -std=c++0x -c -g -O0 -Wall -Wextra -Wno-unused-function solution_tree.cpp
+:: Compiled successfully!
+:: Compiling provided code...
+
+:: Compiling test_one.
+solution_queue.cpp: In function ‘int removeAt(std::queue<int>&, int)’:
+solution_queue.cpp:19:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (pos < 0 || pos >= q.size())
+                    ~~~~^~~~~~~~~~~
+:: Running test_one.
+Status is 'PASSED'
+:: Passed test_one.
+
+:: Compiling test_two.
+:: Running test_two.
+Status is 'PASSED'
+:: Passed test_two.
+
+:: Compiling test_three.
+:: Running test_three.
+Status is 'PASSED'
+:: Passed test_three.
+
+:: Compiling test_seven.
+:: Running test_seven.
+Status is 'PASSED'
+:: Passed test_seven.
+
+Grade for question : 100/100
+
+
+~ ~ ~
+
+Grade: 100
+
+Details:
+test,grade
+_compiled,1
+_test_one,1
+_test_two,1
+_test_three,1
+_test_seven,1

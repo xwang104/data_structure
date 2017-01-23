@@ -1,0 +1,44 @@
+Grading r37989 by xwang104 committed on Tue Oct 25 13:01:23 CDT 2016
+Monad Autograder
+Testing mp5.1 at 2016-10-26 01:06:27
+
+"The primary purpose of the DATA statement is to give names to constants; instead of referring to pi as 3.141592653589793 at every appearance, the variable PI can be given that value with a DATA statement and used instead of the longer form of the constant. This also simplifies modifying the program, should the value of pi change." ~ FORTRAN manual for Xerox computers
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+test_default_ctor  . . . . [4 pts] - passed
+test_ctor_1  . . . . . . . [4 pts] - passed
+test_ctor_2  . . . . . . . [4 pts] - passed
+test_buildTree_1 . . . . . [4 pts] - passed
+test_buildTree_2 . . . . . [4 pts] - passed
+test_buildTree_3 . . . . . [4 pts] - passed
+test_cctor_1 . . . . . . . [2 pts] - passed
+test_cctor_2 . . . . . . . [2 pts] - passed
+test_cctor_3 . . . . . . . [2 pts] - passed
+test_cctor_4 . . . . . . . [4 pts] - passed
+test_assign_op_1 . . . . . [2 pts] - passed
+test_assign_op_2 . . . . . [2 pts] - passed
+test_assign_op_3 . . . . . [2 pts] - passed
+test_assign_op_4 . . . . . [4 pts] - passed
+test_getPixel_1  . . . . . [4 pts] - passed
+test_getPixel_2  . . . . . [4 pts] - passed
+test_getPixel_3  . . . . . [4 pts] - passed
+test_getPixel_4  . . . . . [4 pts] - passed
+test_decompress_unpruned_1 [4 pts] - passed
+test_decompress_unpruned_2 [4 pts] - passed
+test_decompress_unpruned_3 [6 pts] - passed
+test_decompress_unpruned_4 [6 pts] - passed
+time_getPixel_logn . . . . [6 pts] - passed
+time_decompress_n (asan) . [6 pts] - passed
+valgrind_big3 (asan) . . . [8 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 100
+

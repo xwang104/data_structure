@@ -1,0 +1,24 @@
+Grading r9560 by xwang104 committed on Fri Sep  9 19:14:02 CDT 2016
+Monad Autograder
+Testing lab_memory at 2016-09-12 00:55:54
+
+"If you don't hand in the next homework, you might miss some points." ~ Prof. Jiawei Han
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+test_constructor (asan) [5 pts]  - passed
+test_allocate (asan)  . [5 pts]  - passed
+test_printrooms (asan)  [20 pts] - passed
+test_any_output . . . . [30 pts] - passed
+test_correct_output . . [40 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 100
+

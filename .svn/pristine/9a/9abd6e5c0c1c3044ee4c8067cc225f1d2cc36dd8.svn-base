@@ -1,0 +1,25 @@
+Exam report for Xiaoxiao Wang
+=============================
+
+Scores
+------
+
+  Problem                      Points
+  ----------------------- -----------
+  constructors-1b            4.000000
+  constructors-3c            4.000000
+  km-arrays-2a               4.000000
+  km-pointersintro-2a        4.000000
+  passbyvalue-5a             4.000000
+  km-declarationopts-2a      2.666667
+  km-firstclass-1b           4.000000
+  km-makefile-2b             4.000000
+  vector                    18.000000
+
+Total score: 48.6666667/50 (97.3333333%)
+
+Code Problem Test Output
+------------------------
+
+See `tests.txt` (or `tests-1.txt` and `tests-2.txt`) for autograder test
+outputs.
